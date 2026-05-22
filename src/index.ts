@@ -1,5 +1,4 @@
 export { LoadingStatus } from './domain/LoadingStatus';
-export { CluePersisted } from './dto/CluePersisted';
 
 export { Clue } from './domain/Clue';
 export {
@@ -11,7 +10,7 @@ export {
 export { ClueCollection } from './domain/ClueCollection';
 export { ClueProgress } from './domain/ClueProgress';
 export { ClueProgressData } from './domain/ClueProgressData';
-export { CollectionClueRow, CollectionClueSenseOption } from './dto/CollectionClueRow';
+export { CollectionClueTableRow, CollectionClueSenseOption } from './dto/CollectionClueTableRow';
 export { CollectionProgress } from './domain/CollectionProgress';
 export { CollectionProgressData } from './domain/CollectionProgressData';
 export { Entry } from './domain/Entry';
@@ -28,8 +27,6 @@ export {
     Publication,
     Publications,
     PublicationId,
-    PuzzleSource,
-    PuzzleSources,
 } from './constants/Publication';
 export { Sense } from './domain/Sense';
 export { SenseRef } from './domain/SenseRef';

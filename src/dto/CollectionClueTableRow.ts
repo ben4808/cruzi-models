@@ -5,7 +5,7 @@ export interface CollectionClueSenseOption {
 }
 
 /** SQL projection for get_collection_clues. */
-export interface CollectionClueRow {
+export interface CollectionClueTableRow {
     id: string;
     answer: string;
     sense: string;

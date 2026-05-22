@@ -3,4 +3,5 @@ export interface CollectionProgress {
     unseen: number;
     inProgress: number;
     completed: number;
+    hintsUsed: number;
 }
