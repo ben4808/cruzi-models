@@ -15,9 +15,3 @@ export const Publications = {
 } as const;
 
 export type PublicationId = keyof typeof Publications;
-
-/** @deprecated Use Publications */
-export const PuzzleSources = Publications;
-
-/** @deprecated Use Publication */
-export type PuzzleSource = Publication;
