@@ -32,3 +32,4 @@ export { Sense } from './domain/Sense';
 export { SenseRef } from './domain/SenseRef';
 export { User } from './domain/User';
 export { UserResponse } from './dto/UserResponse';
+export { CrosswordResponse } from './dto/CrosswordResponse';

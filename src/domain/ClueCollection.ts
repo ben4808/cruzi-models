@@ -21,6 +21,7 @@ export interface ClueCollection {
     aiCompositeScore?: string;
     metadata2?: string;
     clueCount?: number;
+    clueCount6Plus?: number;
     progressData?: CollectionProgress;
     clues?: (ClueHydrated | CollectionClueWithProgress)[];
 }
