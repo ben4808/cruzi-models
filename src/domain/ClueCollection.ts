@@ -17,8 +17,7 @@ export interface ClueCollection {
     /** Book or AI provenance (clue_collection.source). */
     source?: string;
     isPrivate: boolean;
-    /** AI composite score (clue_collection.metadata1). */
-    aiCompositeScore?: string;
+    metadata1?: string;
     metadata2?: string;
     clueCount?: number;
     clueCount6Plus?: number;
