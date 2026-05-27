@@ -1,12 +1,12 @@
-import { ClueHydrated, CollectionClueWithProgress } from './ClueHydrated';
+import { ClueHydrated, CollectionClue, CollectionClueWithProgress } from './ClueHydrated';
 import { CollectionProgress } from './CollectionProgress';
-import { PuzzleSummary } from './PuzzleSummary';
+import { Puzzle } from './Puzzle';
 import { User } from './User';
 
 /** Clue collection (clue_collection table). */
 export interface ClueCollection {
     id?: string;
-    puzzle?: PuzzleSummary;
+    puzzle?: Puzzle;
     title: string;
     lang: string;
     author?: string;
@@ -23,5 +23,5 @@ export interface ClueCollection {
     clueCount?: number;
     clueCount6Plus?: number;
     progressData?: CollectionProgress;
-    clues?: (ClueHydrated | CollectionClueWithProgress)[];
+    clues?: (ClueHydrated | CollectionClueWithProgress | CollectionClue)[];
 }

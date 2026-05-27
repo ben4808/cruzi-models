@@ -20,9 +20,7 @@ export { EntryQueryParams } from './dto/EntryQueryParams';
 export { EntryTranslation } from './domain/EntryTranslation';
 export { ExampleSentence } from './domain/ExampleSentence';
 export { LanguageNames } from './constants/LanguageNames';
-export { PuzzleSummary } from './domain/PuzzleSummary';
-/** @deprecated Use PuzzleSummary */
-export type { PuzzleSummary as Puzzle } from './domain/PuzzleSummary';
+export { Puzzle, ScrapedPuzzle } from './domain/Puzzle';
 export {
     Publication,
     Publications,
@@ -33,3 +31,7 @@ export { SenseRef } from './domain/SenseRef';
 export { User } from './domain/User';
 export { UserResponse } from './dto/UserResponse';
 export { CrosswordResponse } from './dto/CrosswordResponse';
+export { PuzzleEntry } from './domain/PuzzleEntry';
+export { Square } from './domain/Square';
+export { FamiliarityResult } from './domain/FamiliarityResult';
+export { QualityResult } from './domain/QualityResult';

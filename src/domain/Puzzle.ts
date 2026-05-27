@@ -1,16 +1,22 @@
 import { PublicationId } from '../constants/Publication';
+import { PuzzleEntry } from './PuzzleEntry';
+import { Square } from './Square';
 
-/** Summary puzzle metadata for collection list views (puzzle table). */
-export interface PuzzleSummary {
+export interface Puzzle {
     id?: string;
     title: string;
     publicationId?: PublicationId;
     date: Date;
     width: number;
     height: number;
-    author?: string;
+    authors?: string[];
     copyright?: string;
     notes?: string;
     lang?: string;
     sourceLink?: string;
+}
+
+export interface ScrapedPuzzle extends Puzzle {
+    grid: Square[][];
+    entries: Map<string, PuzzleEntry>;
 }

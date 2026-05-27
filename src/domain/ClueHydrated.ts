@@ -22,8 +22,7 @@ export interface ClueWithProgress extends ClueHydrated {
 export interface CollectionClue {
     clue: Clue | ClueHydrated;
     order: number;
-    /** Clue index in the source puzzle (collection__clue.metadata1). */
-    puzzleClueIndex?: string;
+    metadata1?: string;
     metadata2?: string;
 }
 
