@@ -35,3 +35,4 @@ export { PuzzleEntry } from './domain/PuzzleEntry';
 export { Square } from './domain/Square';
 export { FamiliarityResult } from './domain/FamiliarityResult';
 export { QualityResult } from './domain/QualityResult';
+export { CrosswordCalendarDay } from './dto/CrosswordCalendarDay';
