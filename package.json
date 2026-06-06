@@ -2,13 +2,11 @@
   "name": "cruzi-models",
   "version": "0.0.0",
   "description": "Shared domain models for chal-api and xwordskimmer-ui",
-  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
       "default": "./dist/index.js"
     }
   },

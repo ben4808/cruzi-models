@@ -5,4 +5,6 @@ export interface CollectionProgress {
     inProgress: number;
     completed: number;
     hintsUsed: number;
+    /** For crosswords where the user may only complete entries 6 letters or longer. */
+    collectionCompleted: boolean;
 }
