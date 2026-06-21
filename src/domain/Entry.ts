@@ -8,6 +8,7 @@ export interface Entry extends EntryRef {
     entryType?: string;
     familiarityScore?: number;
     qualityScore?: number;
+    idiomacityScore?: number;
     loadingStatus?: LoadingStatus;
     senses?: Sense[];
     tags?: Record<string, string>;
