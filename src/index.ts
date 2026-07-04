@@ -25,6 +25,7 @@ export {
     Publication,
     Publications,
     PublicationId,
+    getSortedPublications,
 } from './constants/Publication';
 export { Sense } from './domain/Sense';
 export { SenseRef } from './domain/SenseRef';

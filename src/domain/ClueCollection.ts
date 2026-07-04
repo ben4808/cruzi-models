@@ -14,6 +14,8 @@ export interface ClueCollection {
     description?: string;
     createdDate: Date;
     modifiedDate: Date;
+    /** Most recent clue activity for the current user, or collection modified_date when none. */
+    lastAccessedDate?: Date;
     /** Book or AI provenance (clue_collection.source). */
     source?: string;
     isPrivate: boolean;

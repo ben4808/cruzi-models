@@ -6,7 +6,8 @@ export interface Sense {
     id?: string;
     entry: EntryRef;
     partOfSpeech?: string;
-    commonness?: string;
+    classification?: string;
+    frequency?: string;
     familiarityScore?: number;
     qualityScore?: number;
     sourceAi?: string;
