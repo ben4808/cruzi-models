@@ -9,6 +9,7 @@ export interface Entry extends EntryRef {
     familiarityScore?: number;
     qualityScore?: number;
     idiomacityScore?: number;
+    unityBucket?: string;
     loadingStatus?: LoadingStatus;
     senses?: Sense[];
     tags?: Record<string, string>;
