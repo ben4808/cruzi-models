@@ -4,12 +4,17 @@ import { Sense } from './Sense';
 
 /** Full entry with lexical metadata (entry + entry_tags tables). */
 export interface Entry extends EntryRef {
-    rootEntry?: string;
+    baseForm?: string;
     entryType?: string;
+    familiarityBucket?: string;
     familiarityScore?: number;
+    qualityBucket?: string;
     qualityScore?: number;
     idiomacityScore?: number;
     unityBucket?: string;
+    unityScore?: number;
+    isVulgar?: boolean;
+    reviewedStatus?: string;
     loadingStatus?: LoadingStatus;
     senses?: Sense[];
     tags?: Record<string, string>;
