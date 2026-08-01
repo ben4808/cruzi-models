@@ -37,3 +37,21 @@ export { Square } from './domain/Square';
 export { FamiliarityResult } from './domain/FamiliarityResult';
 export { QualityResult } from './domain/QualityResult';
 export { CrosswordCalendarDay } from './dto/CrosswordCalendarDay';
+export {
+  FriendlyWordsGameStatus,
+  FriendlyWordsTile,
+  FriendlyWordsBoardTile,
+  FriendlyWordsPlayer,
+  FriendlyWordsRatingLabel,
+  FriendlyWordsOpponentRating,
+  FriendlyWordsConfirmationWord,
+  FriendlyWordsPlacement,
+  FriendlyWordsLivePlay,
+  FriendlyWordsConfirmation,
+  FriendlyWordsGamePhase,
+  FriendlyWordsGameState,
+  FriendlyWordsTurn,
+  FriendlyWordsPlayedWord,
+  FriendlyWordsRating,
+  FriendlyWordsGame,
+} from './domain/FriendlyWordsGame';
