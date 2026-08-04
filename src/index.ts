@@ -49,6 +49,7 @@ export {
   FriendlyWordsLivePlay,
   FriendlyWordsConfirmation,
   FriendlyWordsGamePhase,
+  FriendlyWordsLanguage,
   FriendlyWordsGameState,
   FriendlyWordsTurn,
   FriendlyWordsPlayedWord,

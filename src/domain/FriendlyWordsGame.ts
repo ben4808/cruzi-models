@@ -89,6 +89,8 @@ export type FriendlyWordsRating = {
 
 export type FriendlyWordsGamePhase = 'ready' | 'playing' | 'exchanging' | 'confirming' | 'gameOver';
 
+export type FriendlyWordsLanguage = 'en' | 'es';
+
 export type FriendlyWordsGameState = {
   players: FriendlyWordsPlayer[];
   waitlist: FriendlyWordsPlayer[];
@@ -131,6 +133,8 @@ export type FriendlyWordsGame = {
   title: string;
   hostPlayerId: string;
   status: FriendlyWordsGameStatus;
+  /** Game language controls tile bag and recommendation behavior. */
+  lang: FriendlyWordsLanguage;
   createdAt: Date;
   completedAt: Date | null;
   player1: string | null;
