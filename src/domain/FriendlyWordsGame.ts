@@ -129,7 +129,7 @@ export type FriendlyWordsPlayedWord = {
 
 export type FriendlyWordsGame = {
   id: string;
-  gameCode: string;
+  gameCode: string | null;
   title: string;
   hostPlayerId: string;
   status: FriendlyWordsGameStatus;
