@@ -5,6 +5,9 @@ import { ExampleSentence } from './ExampleSentence';
 export interface Sense {
     id?: string;
     entry: EntryRef;
+    displayText?: string;
+    baseForm?: string;
+    inflections?: string[];
     partOfSpeech?: string;
     classification?: string;
     frequency?: string;

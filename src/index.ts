@@ -48,6 +48,7 @@ export {
   FriendlyWordsPlacement,
   FriendlyWordsLivePlay,
   FriendlyWordsConfirmation,
+  FriendlyWordsEndGameBonus,
   FriendlyWordsGamePhase,
   FriendlyWordsLanguage,
   FriendlyWordsGameState,

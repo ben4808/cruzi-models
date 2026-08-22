@@ -91,6 +91,14 @@ export type FriendlyWordsGamePhase = 'ready' | 'playing' | 'exchanging' | 'confi
 
 export type FriendlyWordsLanguage = 'en' | 'es';
 
+/** Leftover-rack transfer applied when a player goes out with an empty bag. */
+export type FriendlyWordsEndGameBonus = {
+  playerId: string;
+  playerName: string;
+  points: number;
+  tiles: string;
+};
+
 export type FriendlyWordsGameState = {
   players: FriendlyWordsPlayer[];
   waitlist: FriendlyWordsPlayer[];
@@ -102,6 +110,7 @@ export type FriendlyWordsGameState = {
   gamePhase: FriendlyWordsGamePhase;
   confirmation: FriendlyWordsConfirmation | null;
   winnerPlayerId?: string | null;
+  endGameBonus?: FriendlyWordsEndGameBonus | null;
 };
 
 export type FriendlyWordsTurn = {
