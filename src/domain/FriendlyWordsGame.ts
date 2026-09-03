@@ -91,12 +91,22 @@ export type FriendlyWordsGamePhase = 'ready' | 'playing' | 'exchanging' | 'confi
 
 export type FriendlyWordsLanguage = 'en' | 'es';
 
+export type FriendlyWordsEndGameAdjustment = {
+  playerId: string;
+  playerName: string;
+  kind: 'added' | 'subtracted';
+  points: number;
+  tiles: string;
+  finalScore: number;
+};
+
 /** Leftover-rack transfer applied when a player goes out with an empty bag. */
 export type FriendlyWordsEndGameBonus = {
   playerId: string;
   playerName: string;
   points: number;
   tiles: string;
+  players?: FriendlyWordsEndGameAdjustment[];
 };
 
 export type FriendlyWordsGameState = {
@@ -111,6 +121,8 @@ export type FriendlyWordsGameState = {
   confirmation: FriendlyWordsConfirmation | null;
   winnerPlayerId?: string | null;
   endGameBonus?: FriendlyWordsEndGameBonus | null;
+  /** When true, the bag is 16 tiles (A–P, one each) instead of the standard distribution. */
+  testMode?: boolean;
 };
 
 export type FriendlyWordsTurn = {
