@@ -30,6 +30,7 @@ export {
 export { Sense } from './domain/Sense';
 export { SenseRef } from './domain/SenseRef';
 export { User } from './domain/User';
+export { UserSettings, DEFAULT_USER_SETTINGS } from './domain/UserSettings';
 export { UserResponse } from './dto/UserResponse';
 export { CrosswordResponse } from './dto/CrosswordResponse';
 export { PuzzleEntry } from './domain/PuzzleEntry';

@@ -6,6 +6,7 @@ export interface Sense {
     id?: string;
     entry: EntryRef;
     displayText?: string;
+    /** Lemma when this sense is for an inflected form; persisted on inflected_entry, not sense. */
     baseForm?: string;
     inflections?: string[];
     partOfSpeech?: string;
