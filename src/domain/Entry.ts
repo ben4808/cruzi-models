@@ -6,7 +6,7 @@ import { Sense } from './Sense';
 export interface Entry extends EntryRef {
     /** Lemma from inflected_entry when this key is an inflected form. */
     baseForm?: string;
-    entryType?: string;
+    classification?: string;
     familiarityBucket?: string;
     familiarityScore?: number;
     qualityBucket?: string;

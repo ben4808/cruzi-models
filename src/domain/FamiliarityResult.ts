@@ -3,7 +3,7 @@ export interface FamiliarityResult {
     lang: string;
     baseForm: string;
     displayText: string;
-    entryType: string;
+    classification: string;
     familiarityScore: number;
     sourceAI: string;
 }
