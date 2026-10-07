@@ -18,6 +18,7 @@ export const Publications = {
     MerriamWebster: { id: 'MerriamWebster', name: 'Merriam-Webster' } as Publication,
     Newsday: { id: 'Newsday', name: 'Newsday' } as Publication,
     NewYorker: { id: 'NewYorker', name: 'New Yorker' } as Publication,
+    NewYorkSunday: { id: 'NewYorkSunday', name: 'New York Magazine' } as Publication,
     NYT: { id: 'NYT', name: 'New York Times' } as Publication,
     PeoplePuzzler: { id: 'PeoplePuzzler', name: 'People Puzzler' } as Publication,
     PennyDell: { id: 'PennyDell', name: 'Penny Dell' } as Publication,

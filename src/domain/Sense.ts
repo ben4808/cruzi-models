@@ -1,6 +1,7 @@
 import { EntryRef } from './EntryRef';
 import { EntryTranslation } from './EntryTranslation';
 import { ExampleSentence } from './ExampleSentence';
+import { SenseLore } from './SenseLore';
 import { SenseReference } from './SenseReference';
 
 export interface Sense {
@@ -27,4 +28,5 @@ export interface Sense {
     translations?: Record<string, EntryTranslation>;
     tags?: Record<string, string>;
     references?: SenseReference[];
+    lore?: SenseLore[];
 }
