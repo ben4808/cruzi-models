@@ -21,6 +21,7 @@ export { EntryTranslation } from './domain/EntryTranslation';
 export { ExampleSentence } from './domain/ExampleSentence';
 export { LanguageNames } from './constants/LanguageNames';
 export { Puzzle, ScrapedPuzzle } from './domain/Puzzle';
+export { MagicPuzzle } from './domain/MagicPuzzle';
 export {
     Publication,
     Publications,

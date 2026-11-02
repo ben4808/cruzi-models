@@ -1,5 +1,6 @@
 import { ClueHydrated, CollectionClue, CollectionClueWithProgress } from './ClueHydrated';
 import { CollectionProgress } from './CollectionProgress';
+import { MagicPuzzle } from './MagicPuzzle';
 import { Puzzle } from './Puzzle';
 import { User } from './User';
 
@@ -7,6 +8,7 @@ import { User } from './User';
 export interface ClueCollection {
     id?: string;
     puzzle?: Puzzle;
+    magicPuzzle?: MagicPuzzle;
     title: string;
     lang: string;
     author?: string;
